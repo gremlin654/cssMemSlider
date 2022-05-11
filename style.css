@@ -179,6 +179,12 @@ img {
 #image5:checked ~ .slider {
     box-shadow: 0 0 0.9em 0.4em rgb(32, 98, 133);
 }
+@media (min-width: 120em) {
+    body,
+    html {
+        font-size: 1.22em;
+    }
+}
 @media (max-width: 70em) {
     .slider__text-container {
         flex: 1 1 100%;
