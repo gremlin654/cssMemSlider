@@ -123,6 +123,10 @@ img {
     cursor: pointer;
     padding: 0.3em;
 }
+.button-container:hover>.slider-btn {
+    background-color: rgb(32, 98, 133);
+    transition: 0.3s all;
+}
 .slider-btn {
     display: flex;
     width: 1.5em;
@@ -132,10 +136,7 @@ img {
     border: 0.2em solid #ffffff;
     transition: 0.3s all;
 }
-.slider-btn:hover {
-    background-color: green;
-    transition: 0.3s all;
-}
+
 #image1:checked ~ .slider>.slider__container,
 #image1:checked ~ .slider__text-container>.text {
     transform: translateX(0);
