@@ -197,7 +197,17 @@ img {
         order: 2;
     }
 }
+@media (max-width: 55em) {
+    .wrapper {
+        width: 83%;
+    }
+}
 @media (max-width: 37em) {
+    .wrapper {
+        width: 100%;
+    }
+}
+@media (max-width: 22em) {
     body,
     html {
         font-size: 0.70em;
