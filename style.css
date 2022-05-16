@@ -127,6 +127,10 @@ img {
     background-color: rgb(32, 98, 133);
     transition: 0.3s all;
 }
+.button-container:active>.slider-btn {
+    background-color: yellowgreen;
+    transition: 0.3s all;
+}
 .slider-btn {
     display: flex;
     width: 1.5em;
