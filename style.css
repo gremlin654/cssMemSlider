@@ -68,7 +68,7 @@ body {
     background: rgba(173, 172, 172, 0.6);
 }
 input {
-    appearance: none;
+    display: none;
 }
 .slider {
     overflow: hidden;
