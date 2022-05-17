@@ -169,6 +169,14 @@ img {
     background-color: green;
     transition: 0.5s all;
 }
+#image1:checked ~ .slider__button-container .btn1:hover,
+#image2:checked ~ .slider__button-container .btn2:hover,
+#image3:checked ~ .slider__button-container .btn3:hover,
+#image4:checked ~ .slider__button-container .btn4:hover,
+#image5:checked ~ .slider__button-container .btn5:hover {
+    background-color: yellowgreen;
+    transition: 0.5s all;
+}
 #image1:checked ~ .slider {
     box-shadow: 0 0 0.9em 0.4em black;
 }
